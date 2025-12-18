@@ -1,65 +1,49 @@
 import Image from "next/image";
+import {
+  Container,
+  Button
+} from "@mui/material";
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
+    <div className="min-h-screen bg-[url(https://cdn.shopify.com/s/files/1/0028/7509/7153/files/Smart_city_and_abstract_dot_point_connect_with_gradient_line_stock_photo_1920x.jpg?v=1596750954)] bg-cover bg-center bg-no-repeat container-fluid p-5 flex align-center justify-center">
+      <Container maxWidth="md" className="my-5 py-5 bg-slate-100 mx-auto row justify-center align-center rounded min-h-[80vh]">
+        <div className="col-lg-8 space-y-5">
+          <div className="w-full rounded overflow-hidden">
+            <Image src="https://picsum.photos/900/300" alt="C&T is becoming Premio Inc." width={900} height={300} unoptimized />
+          </div>
+
+          <h1 className="capitalize text-center">C&T is becoming Part of Premio Inc.</h1>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio at itaque optio. Quaerat totam delectus quis aliquam sunt aperiam, facilis ab laudantium libero natus ducimus id dolore laborum beatae fugit!
+
           </p>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, blanditiis aliquam? Animi nam deserunt obcaecati ex maxime at soluta voluptatem, harum eaque perspiciatis error aperiam culpa illum maiores. Laboriosam, aut?
+          </p>
+
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere quisquam neque quo iure tempore culpa autem consequuntur ea facilis corporis libero sapiente assumenda, nobis et repellendus commodi. Possimus, eveniet labore!
+          </p>
+
+
+          <div className="text-center">
+            <Button
+              sx={{
+                backgroundColor: "#7d2248",
+                color: "var(--color-white)"
+              }}
+              href="https://premioinc.com"
+              component="a"
+              variant="contained"
+            >
+              Go to Premio Inc.
+            </Button>
+          </div>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
+      </Container>
     </div>
   );
 }
