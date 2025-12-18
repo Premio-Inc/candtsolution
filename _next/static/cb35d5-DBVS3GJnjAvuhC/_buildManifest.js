@@ -3,8 +3,8 @@ self.__BUILD_MANIFEST = {
     "afterFiles": [],
     "beforeFiles": [
       {
-        "source": "/speed-dating-quiz//_next/:path+",
-        "destination": "/speed-dating-quiz/_next/:path+"
+        "source": "/candtsolution//_next/:path+",
+        "destination": "/candtsolution/_next/:path+"
       }
     ],
     "fallback": []
