@@ -1,6 +1,6 @@
 1:"$Sreact.fragment"
 2:I[39756,["/candtsolution/_next/static/chunks/ff1a16fafef87110.js","/candtsolution/_next/static/chunks/247eb132b7f7b574.js"],"default"]
 3:I[37457,["/candtsolution/_next/static/chunks/ff1a16fafef87110.js","/candtsolution/_next/static/chunks/247eb132b7f7b574.js"],"default"]
-:HL["/candtsolution/_next/static/chunks/4a392c272563a440.css","style"]
-0:{"buildId":"GSdGFje3jubjG9KAHR4Ih","rsc":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/candtsolution/_next/static/chunks/4a392c272563a440.css","precedence":"next"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":["$","body",null,{"className":"myfont_3b6c2753-module__7V5sSG__variable antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}],"notFound":["$L4",[]]}]}]}]]}],"loading":null,"isPartial":false}
+:HL["/candtsolution/_next/static/chunks/6b9a0b9503785814.css","style"]
+0:{"buildId":"P_uOPd2QIMHsj31Rz22ae","rsc":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/candtsolution/_next/static/chunks/6b9a0b9503785814.css","precedence":"next"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":["$","body",null,{"className":"myfont_3b6c2753-module__7V5sSG__variable antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}],"notFound":["$L4",[]]}]}]}]]}],"loading":null,"isPartial":false}
 4:E{"digest":"NEXT_REDIRECT;replace;https://premioinc.com;307;"}
