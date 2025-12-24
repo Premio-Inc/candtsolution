@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 import {
   Container,
@@ -6,9 +7,9 @@ import {
 
 export default function Home() {
   return (
-    <div className=" bg-[url(https://cdn.shopify.com/s/files/1/0028/7509/7153/files/Smart_city_and_abstract_dot_point_connect_with_gradient_line_stock_photo_1920x.jpg?v=1596750954)] bg-cover bg-center bg-no-repeat container-fluid p-5 flex align-center justify-center">
-      <Container maxWidth="md" className="my-5 py-5 bg-slate-100 mx-auto row justify-center align-center rounded ">
-        <div className="col-lg-8 space-y-5">
+    <div className=" bg-[url(https://cdn.shopify.com/s/files/1/0028/7509/7153/files/Smart_city_and_abstract_dot_point_connect_with_gradient_line_stock_photo_1920x.jpg?v=1596750954)] bg-cover bg-center bg-no-repeat p-5 flex place-items-center  bg-fixed">
+      <Container maxWidth="md" className="my-5 py-5 bg-slate-100 rounded ">
+        <div className="space-y-5">
           <div className="w-full rounded overflow-hidden">
             <Image src="https://cdn.shopify.com/s/files/1/0028/7509/7153/files/C_T_Solution_is_now_Premio_Inc.png?v=1766518766" alt="C&T is becoming Premio Inc." width={900} height={300} unoptimized />
           </div>
@@ -32,8 +33,8 @@ export default function Home() {
               Visit Premio Inc.
             </Button>
           </div>
-          <hr className="border-zinc-300" />
-          <div className="grid align-start justify-center grid-cols-1 lg:grid-cols-2 gap-5">
+          <hr className="border-zinc-300 hidden lg:block" />
+          <div className="grid items-start justify-center grid-cols-1 lg:grid-cols-2 gap-5">
             <div className="col lg:border-r border-zinc-300">
               <div className="my-3 flex justify-center">
                 <Image src="https://cdn.shopify.com/s/files/1/0028/7509/7153/files/C_T_Solution_transition_to_Premio_Press_Release.png?v=1766518766" width={300} height={300} alt="" unoptimized />
@@ -55,8 +56,6 @@ export default function Home() {
                   Read Press Release
                 </Button>
               </div>
-
-
             </div>
             <div className="col">
               <div className="my-3 flex justify-center">
@@ -85,6 +84,56 @@ export default function Home() {
                   Explore Products
                 </Button>
               </div>
+            </div>
+          </div>
+
+          <hr className="border-zinc-300 hidden lg:block" />
+          <div className="grid items-start justify-center grid-cols-1 lg:grid-cols-2 gap-5">
+            <div className="lg:border-r border-zinc-300">
+              <div className="my-3 flex justify-center">
+                <Image src="https://cdn.shopify.com/s/files/1/0028/7509/7153/files/Premio_Inc._LinkedIn_300x.png?v=1766603382" width={300} height={300} alt="" unoptimized />
+              </div>
+
+              <p>Stay informed with the latest news and product announcements by following Premio&apos;s LinkedIn! </p>
+
+              <div className="my-3 text-center">
+                <Button
+                  sx={{
+                    backgroundColor: "#7d2248",
+                    color: "var(--color-white)"
+                  }}
+                  href="https://linkedin.com/company/premio-inc-/"
+                  component="a"
+                  variant="contained"
+                >
+                  Follow Us
+                </Button>
+              </div>
+            </div>
+
+            <div>
+
+              <div className="my-3 flex justify-center">
+                <Image src="https://cdn.shopify.com/s/files/1/0028/7509/7153/files/Premio_Inc._YouTube_300x.png?v=1766603382" width={300} height={300} alt="" unoptimized />
+              </div>
+
+
+              <p>Subscribe to Premio&apos;s Youtube Channel to watch our latest videos, demos, and technical insights! </p>
+
+              <div className="my-3 text-center">
+                <Button
+                  sx={{
+                    backgroundColor: "#7d2248",
+                    color: "var(--color-white)"
+                  }}
+                  href="https://www.youtube.com/@premioinc"
+                  component="a"
+                  variant="contained"
+                >
+                  Subscribe Now
+                </Button>
+              </div>
+
             </div>
           </div>
 
